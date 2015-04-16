@@ -8,7 +8,16 @@ public class Studienberatung {
 		System.out.println("Hast du Abitur?");
 		String answer = scanner.next();
 		if (answer.equalsIgnoreCase("n") {
-			// hier Code für kein Abitur
+			System.out.println("Hast Du Fachabitur?");
+			answer = scanner.next();
+			if (answer.equalsIgnoreCase("y") {
+				System.out.println("Hast Du eine Berufsausbildung?");
+				if(answer.equalsIgnoreCase("n") {
+					// hier Code für Berufsausbildung
+				}
+			} else if(answer.equalsIgnoreCase("n") {
+				
+			}
 		} else if (answer.equalsIgnoreCase("y") {
 			// hier Code für Abitur
 		} else {
