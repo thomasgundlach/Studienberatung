@@ -9,6 +9,8 @@ public class Studienberatung {
 		String answer = scanner.next();
 		if (answer.equalsIgnoreCase("n") {
 			// hier Code für kein Abitur
+		} else if (answer.equalsIgnoreCase("y") {
+			// hier Code für Abitur
 		} else {
 		}
 	}
